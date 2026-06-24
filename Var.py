@@ -20,3 +20,12 @@ print(a)
 #Python has an inbuilt garbage collector, which recycles all the unused memory to make it available for heap storage area. 
 #The garbage collector runs during program execution and is triggered when an object's reference count reaches zero. 
 #This means that when there are no references to an object, it becomes eligible for garbage collection, and the memory occupied by that object can be reclaimed.
+
+#automatical memory management in python
+
+a=10   #int
+b=20.6 #float
+print(type(a))
+print(id(a))
+print(type(b))
+print(id(b))
